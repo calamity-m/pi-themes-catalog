@@ -1,0 +1,26 @@
+{
+  "name": "pi-themes-catalog",
+  "version": "0.1.0",
+  "description": "A catalog of themes for the pi coding agent.",
+  "keywords": [
+    "pi-coding-agent",
+    "pi-package",
+    "pi-theme"
+  ],
+  "license": "MIT",
+  "files": [
+    "themes/",
+    "scripts/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node scripts/validate-themes.mjs",
+    "pack:dry-run": "npm pack --dry-run"
+  },
+  "pi": {
+    "themes": [
+      "./themes"
+    ]
+  }
+}
