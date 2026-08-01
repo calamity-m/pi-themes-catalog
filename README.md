@@ -18,6 +18,7 @@ A collection of themes for the [pi coding agent](https://pi.dev).
 - `solarized-dark`
 - `solarized-light`
 - `tokyo-night`
+- `umber`
 
 ## Install
 
